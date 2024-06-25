@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Great+Vibes&family=Satisfy&display=swap');
+
+/*== VARIABLES ==*/
+:root {
+  /* --title: #FFDEAD; */
+  --title: #B8860B;
+  --colorBody: #48D1CC;
+  --colorText: #F8F8FF;
+  --textBody: "Cormorant Garamond", serif;
+  --textTitle: "Great Vibes", cursive;
+}
+
+/*== GENERAL ==*/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.6rem;
+  line-height: 1.6;
+  font-family: var(--textBody);
+  font-style: italic;
+  font-weight: 700;
+  /* background-image: url(/tomoko-uji-eriuKJwcdjI-unsplash.jpg); */
+  background-color: var(--colorBody);
+  background-position-y: top;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  color: var(--colorText);
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+img, svg {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+  color: var(--colorText);
+}
+
+header {
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+.wrapper {
+  max-width: 150rem;
+  width: 80%;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.title {
+  font-family: var(--textTitle);
+  color: var(--title);
+  font-size: 5rem;
+}
+
+.subtitle {
+  font-size: 4rem;
+}
+
+.photos {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.photo {
+  width: 60%;
+  clip-path: circle(40% at 50% 50%);
+  object-fit: contain;
+}
+
+.photo img {
+  width: 100%;
+}
+
+.parents {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.date {
+  display: flex;
+  justify-content: space-around;
+  font-size: 2.4rem;
+}
+
+.spots {
+  display: flex;
+  align-items: center;
+}
+
+.spot {
+  background-color: var(--colorText);
+  width: .7rem;
+  height: .7rem;
+  border-radius: 50%;
+}
+
+.lines {
+  padding: 0 3rem;
+}
+
+.line {
+  width: 100%;
+  height: .2rem;
+  border-radius: 1rem;
+  background-color: var(--colorText);
+}
+
+.address {
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.address p {
+  margin: 0;
+}
+
+.footer {
+  text-align: center;
+  font-size: 3.4rem;
+  font-family: var(--textTitle);
+  color: var(--title);
+}
