@@ -57,7 +57,7 @@ header {
 }
 
 .header {
-  background-image: url(/rosas.png);
+  background-image: url('/rosas.png');
   background-repeat: no-repeat;
   width: 100%;
   height: 22rem;
@@ -131,7 +131,7 @@ header {
   display: flex;
   justify-content: space-around;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 
 .date {
