@@ -57,7 +57,7 @@ header {
 }
 
 .header {
-  background-image: url('/rosas.png');
+  background: url(rosas.png);
   background-repeat: no-repeat;
   width: 100%;
   height: 22rem;
