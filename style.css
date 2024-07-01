@@ -29,7 +29,6 @@ body {
   font-weight: 700;
   background-color: var(--colorBody);
   color: var(--colorText);
-  position: relative;
 }
 
 article {
@@ -50,22 +49,17 @@ a {
   color: var(--colorText);
 }
 
-header {
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}
-
-.header {
+.header,
+.footer {
   background: url(rosas.png);
   background-repeat: no-repeat;
   width: 100%;
-  height: 22rem;
+  height: 12rem;
   object-fit: cover;
   position: relative;
 }
 
-.custom-shape-divider-bottom-1719531018 {
+.custom-shape-divider-bottom-1719876275 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -75,14 +69,14 @@ header {
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1719531018 svg {
+.custom-shape-divider-bottom-1719876275 svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 8rem;
+  height: 7rem;
 }
 
-.custom-shape-divider-bottom-1719531018 .shape-fill {
+.custom-shape-divider-bottom-1719876275 .shape-fill {
   fill: var(--colorBody);
 }
 
@@ -180,8 +174,33 @@ header {
 }
 
 .text {
+  margin-bottom: 3rem;
+}
+
+.text__final {
   text-align: center;
   font-size: 2.6rem;
   color: var(--firstColor);
   font-family: var(--textTitle);
+}
+
+/*== FOOTER ==*/
+.custom-shape-divider-top-1719876356 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1719876356 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 7rem;
+}
+
+.custom-shape-divider-top-1719876356 .shape-fill {
+  fill: var(--colorBody);
 }
