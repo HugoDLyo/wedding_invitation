@@ -46,7 +46,7 @@ img, svg {
 }
 
 a {
-  color: var(--colorText);
+  color: var(--firstColor);
 }
 
 .header,
@@ -149,7 +149,8 @@ a {
 
 .lines {
   padding: 0 3rem;
-  margin-bottom: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .line {
